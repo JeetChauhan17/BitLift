@@ -28,5 +28,4 @@ To get started with BitLift, follow these simple steps:
 
 
 
-                                                                                                                           ***MADE BY JEET S. CHAUHAN***
-
+                                                                                                                      
