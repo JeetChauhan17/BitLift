@@ -1,4 +1,4 @@
-# BitLift
+# BitLift -  Your go-to platform for effortless and  smooth project deployment
 
 BitLift is a powerful platform that simplifies the process of deploying and hosting websites, giving you the tools you need to effortlessly launch your projects. BitLift allows you to store your website's repository contents on a cloud bucket and then seamlessly deploy and host your website with ease.
 
