@@ -1,0 +1,24 @@
+{
+  "builds": [
+    { "src": "vercel", "use": "@vercel/node" },
+    { "src": "vercel-deploy-service", "use": "@vercel/node" },
+    { "src": "vercel-request-handler", "use": "@vercel/node" },
+    {
+      "src": "frontend",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "build" }
+    }
+  ],
+  "routes": [
+    { "src": "/api/vercel", "dest": "vercel/dist/index.js" },
+    {
+      "src": "/api/vercel-deploy-service",
+      "dest": "vercel-deploy-service/dist/index.js"
+    },
+    {
+      "src": "/api/vercel-request-handler",
+      "dest": "vercel-request-handler/dist/index.js"
+    },
+    { "src": "/(.*)", "dest": "frontend/build/index.html" }
+  ]
+}
