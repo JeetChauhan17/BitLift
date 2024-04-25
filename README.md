@@ -66,7 +66,7 @@ To get started with BitLift, follow these simple steps:
 
 2. Install dependencies:
 
-  ```npm install```
+  ```npm install express @types/express redis aws-sdk simple-git cors```
 
 3. Build the TypeScript files:
 
@@ -123,6 +123,7 @@ Before running the backend services, make sure Redis is installed and running on
 Once Redis is installed, start the Redis server:
 
 ```redis-server```
+```https://developer.redis.com/create/windows/```
 
 ## Contributing
 
